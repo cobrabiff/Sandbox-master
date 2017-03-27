@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sandbox.Animal">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAQAQAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sandbox.Dog">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sandbox.Poodle">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Poodle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sandbox.GreatDane">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GreatDane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sandbox.GermanShepard">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GermanShepard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Sandbox.AnimalType">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAQAAAAAAACAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AnimalType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sandbox.AnimalSize">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEABA=</HashCode>
+      <FileName>AnimalSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
