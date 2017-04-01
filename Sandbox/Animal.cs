@@ -9,7 +9,7 @@ namespace Sandbox
     /// Animal is our base class or 'superclass'.
     /// A derived class is a class created or derived from another existing class. 
     /// </summary>
-    public class Animal
+    public class Animal //was abstract
     {
         /// <summary>
         /// All derived classes will inherit Classification
@@ -46,12 +46,26 @@ namespace Sandbox
         }
         /// <summary>
         /// This is the constructor for the Animal class. Calling 'new Animal()' creates 
-        /// a new Animal object. An object is and instance of a class.
+        /// a new Animal object. An object is an instance of a class.
         /// </summary>
         public Animal()
         {
             Classification = AnimalType.Unknown;
             Size = AnimalSize.Unknown;
         }
+
+        public virtual void MakeNoise()
+        {
+            Console.WriteLine("Unknown");
+        }
+
+        //public abstract void MakeNoise();
+        
+        //private void MakeNoise()
+        //{
+        //    Console.WriteLine("Unknown");
+        //}
     }
+
+    
 }

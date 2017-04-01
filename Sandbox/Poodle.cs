@@ -13,5 +13,22 @@ namespace Sandbox
             // Set the specific size of Poodle
             Size = AnimalSize.Small;            
         }
+
+        //public override void MakeNoise()
+        //{
+        //    //throw new NotImplementedException();
+        //}
+
+        public override void Bark()
+        {
+            //base.Bark();
+            Console.WriteLine("Yip!");
+        }
+
+        public new void OtherBark()
+        {
+            base.Bark();
+            //Console.WriteLine("Yip!");
+        }
     }
 }
